@@ -56,6 +56,40 @@ I chose to work with a highly accurate Convolutional Network, VGG16, which is ab
 
 To train the network, I had to set the hyperparameters for the training (i.e. epochs, learning rate, etc.). I chose to work with 10 epochs to avoid overfitting. The code loops through each epoch, trains 20 batches at at time (1 batch corresponds to 64 images), and tests the model's progress on the validation data. At the end, the training and validation metrics are printed.
 
-At this point, I had to go back to using Udacity's GPU because training the model locally proved impossible. The file developed on the Udacity portal is `image_classifier_project_GPU.ipynb`.
+At this point, I had to go back to using Udacity's GPU because training the model locally proved impossible. The file developed on the Udacity portal is `image_classifier_project_GPU.ipynb`. I copy below the training results for the last epoch:
+
+````
+Epoch 10/10 | Batch 20
+Running Training Loss: 0.530
+Running Training Accuracy: 100.99%
+Validation Loss: 0.271
+Validation Accuracy: 94.23%
+
+Epoch 10/10 | Batch 40
+Running Training Loss: 0.413
+Running Training Accuracy: 88.59%
+Validation Loss: 0.246
+Validation Accuracy: 95.31%
+
+Epoch 10/10 | Batch 60
+Running Training Loss: 0.412
+Running Training Accuracy: 88.36%
+Validation Loss: 0.338
+Validation Accuracy: 92.67%
+
+Epoch 10/10 | Batch 80
+Running Training Loss: 0.431
+Running Training Accuracy: 87.66%
+Validation Loss: 0.323
+Validation Accuracy: 93.03%
+
+Epoch 10/10 | Batch 100
+Running Training Loss: 0.456
+Running Training Accuracy: 87.81%
+Validation Loss: 0.317
+Validation Accuracy: 93.08%
+```
+
+
 
 ## Walk through: The command line application
