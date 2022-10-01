@@ -1,10 +1,10 @@
 # Create your own image classifier
 
-> Final capstone that I worked on as part of the [AI programming in Python](https://www.udacity.com/course/ai-programming-python-nanodegree--nd089) nanodegree at Udacity. The aim of the project was to build a Python application that can train an image classifier on the [102 Category Flower Dataset](https://www.robots.ox.ac.uk/~vgg/data/flowers/102/index.html), and then predict new flower images using the trained model.
+> Final capstone that I worked on as part of the [AI programming in Python](https://www.udacity.com/course/ai-programming-python-nanodegree--nd089) nanodegree at Udacity. The aim of the project was to build an image classifier on the [102 Category Flower Dataset](https://www.robots.ox.ac.uk/~vgg/data/flowers/102/index.html), and then predict new flower images using the trained model.
 
 ![This is an image taken from the Udacity website](images/header.png)
 
-The project implements an image classification application. The application trains a deep learning model on a data set of images, then uses tha trained model to classify images. The code is first implemented in a Jupyter notebook to make sure the training implementation works, and then it is converted into a Python application that runs from the command line.
+The project implements an image classification application. The application trains a deep learning model on a data set of images, then uses tha trained model to classify images. The code is first implemented in a Jupyter notebook.
 
 ## Languages and tools
 
@@ -94,4 +94,4 @@ I set aside test data that the model had never been exposed to in order to see h
 
 ![This is an image of the test results](images/test.png)
 
-## Walk through: The command line application
+
