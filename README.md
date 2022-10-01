@@ -58,7 +58,7 @@ To train the network, I had to set the hyperparameters for the training (i.e. ep
 
 At this point, I had to go back to using Udacity's GPU because training the model locally proved impossible. The file developed on the Udacity portal is `image_classifier_project_GPU.ipynb`. I copy below the training results for the last epoch:
 
-````
+```python
 Epoch 10/10 | Batch 20
 Running Training Loss: 0.530
 Running Training Accuracy: 100.99%
