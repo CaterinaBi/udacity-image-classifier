@@ -54,13 +54,8 @@ I chose to work with a highly accurate Convolutional Network, VGG16, which is ab
 
 ### Training of the network
 
-Below is a heapload of code. Feel free to read through it if you want, but if you want the TL;DR version of this code, here it is...
+To train the network, I had to set the hyperparameters for the training (i.e. epochs, learning rate, etc.). I chose to work with 10 epochs to avoid overfitting. The code loops through each epoch, trains 20 batches at at time (1 batch corresponds to 64 images), and tests the model's progress on the validation data. At the end, the training and validation metrics are printed.
 
-Sets hyperparameters for training (i.e. epochs, learning rate, etc).
-Uses active_session() (function provided by Udacity) to make sure the vm I used with GPU doesn't sleep on me while I'm training.
-Loops through epochs
-1 batch is 64 images. The model trains on 20 batches at at time (as defined by print_every)
-After the 20 batches, we test our model's progress on the validation data
-Then we print our training and validation metrics (skip ahead below to see the metrics).
+At this point, I had to go back to using Udacity's GPU () because training the model locally proved impossible.
 
 ## Walk through: The command line application
