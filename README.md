@@ -52,10 +52,10 @@ classifier = nn.Sequential(OrderedDict([
 
 I chose to work with a highly accurate Convolutional Network, VGG16, which is abysmally slow to train (in my case, about 30 minutes per epoch). Note that I had previously defined the `hidden_units` as being 4096, while `no_output_categories` corresponds to the length of `cat_to_name.json`, i.e. 102.
 
-### Training of the network
+### Training the network
 
 To train the network, I had to set the hyperparameters for the training (i.e. epochs, learning rate, etc.). I chose to work with 10 epochs to avoid overfitting. The code loops through each epoch, trains 20 batches at at time (1 batch corresponds to 64 images), and tests the model's progress on the validation data. At the end, the training and validation metrics are printed.
 
-At this point, I had to go back to using Udacity's GPU () because training the model locally proved impossible.
+At this point, I had to go back to using Udacity's GPU because training the model locally proved impossible. The file developed on the Udacity portal is `image_classifier_project_GPU.ipynb`.
 
 ## Walk through: The command line application
