@@ -94,4 +94,8 @@ I set aside test data that the model had never been exposed to in order to see h
 
 ![This is an image of the test results](images/test.png)
 
+I then created two functions to save the checkpoint in a .pth file, and load it when necessary.
+
+
+
 
